@@ -15,6 +15,7 @@ gem 'pg'
 # gem 'image_processing', '~> 1.2'
 
 gem 'rails_com', github: 'work-design/rails_com'
+gem 'rails_auth', github: 'work-design/rails_auth'
 
 
 # Reduces boot times through caching; required in config/boot.rb

@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/work-design/rails_auth.git
+  revision: ec1be57712d9856a40a5195150a702e7d7a451f3
+  specs:
+    rails_auth (1.1.0)
+      bcrypt (~> 3.1)
+      groupdate
+      jwt (>= 2.0, <= 3.0)
+      rails_com (~> 1.2)
+
+GIT
   remote: https://github.com/work-design/rails_com.git
   revision: d6e41d252e6e73a6786e37025b32fb480b614a5d
   specs:
@@ -78,6 +88,7 @@ GEM
       zeitwerk (~> 2.3)
     acts_as_list (1.0.3)
       activerecord (>= 4.2)
+    bcrypt (3.1.16)
     bootsnap (1.7.2)
       msgpack (~> 1.0)
     builder (3.2.4)
@@ -98,6 +109,8 @@ GEM
     ffi (1.15.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    groupdate (5.2.2)
+      activesupport (>= 5)
     http-2-next (0.4.0)
     http-form_data (2.3.0)
     httpx (0.12.0)
@@ -107,6 +120,7 @@ GEM
       concurrent-ruby (~> 1.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
+    jwt (2.2.2)
     kaminari (1.2.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.2.1)
@@ -206,6 +220,7 @@ DEPENDENCIES
   pg
   puma
   rails
+  rails_auth!
   rails_com!
   spring
   tzinfo-data
