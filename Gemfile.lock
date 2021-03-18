@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/work-design/rails_com.git
-  revision: 0226607f2b828c982d0cafb6b2519391d09e90e3
+  revision: bb81872f33dfa6b02aadc6b52f22c16f3aa28723
   specs:
     rails_com (1.2.9)
       acme-client
@@ -138,6 +138,7 @@ GEM
     nio4r (2.5.7)
     nokogiri (1.11.2-x86_64-darwin)
       racc (~> 1.4)
+    pg (1.2.3)
     puma (5.2.2)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -202,6 +203,7 @@ DEPENDENCIES
   byebug
   jbuilder
   listen (~> 3.3)
+  pg
   puma
   rails
   rails_com!
